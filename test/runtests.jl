@@ -2,5 +2,6 @@ using mopkg
 using Test
 
 @testset "mopkg.jl" begin
-    # Write your own tests here.
+   	@test example_func(2) == 4
+	@test example_func(-2) == 4
 end
