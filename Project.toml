@@ -1,0 +1,13 @@
+name = "mopkg"
+uuid = "e0b1ff67-a367-4625-91d9-0dc219c4e662"
+authors = ["mikolajos"]
+version = "0.1.0"
+
+[compat]
+julia = "1.4.1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
