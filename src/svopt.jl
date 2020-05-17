@@ -10,7 +10,7 @@ function (svs::SVSecant)(f,x0,x1;eps,N)
 		x=x1-f(x1)*(x1-x0)/(f(x1)-f(x0))
 		if f(x)==0 || abs(x-x1)<eps
 			y=f(x)
-			return x,y
+			return y,x
 		end
 		x0=x1
 		x1=x
