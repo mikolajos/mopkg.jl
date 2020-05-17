@@ -17,6 +17,6 @@ function (svs::SVSecant)(f,x0,x1;eps,N)
 		n=n+1
 	end
 	y=f(x)
-	println("Nie udało się. Ostatnia iteracja dala nam $x z y= $y")
+	return y,x
 end
 
