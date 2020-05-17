@@ -9,12 +9,12 @@ Single wariable global test function - functions with single global minimum key 
 
 """
 
-svltf = Dict(
+svltf1 = Dict(
 	(x-> x^2 - 1) => (1.0000000010382313,2.076462557454306e-9))
 
 
 @testset "Single variable optimizers" begin
-	for (fun, min) in svltf
+	for (fun, min) in svltf1
 		stval=(min[2]+1)
 		stval1=(min[2]+5)
 		@testset "Test Epsilonu" begin
