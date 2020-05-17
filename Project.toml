@@ -4,6 +4,7 @@ authors = ["mikolajos"]
 version = "0.1.0"
 
 [deps]
+OhMyREPL = "5fb14364-9ced-5910-84b2-373655c76a03"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [compat]
